@@ -5,7 +5,9 @@ Android-Strings.xml-Translator is a Python script that uses the Google Cloud Tra
 ##Documentation
 
 [The ElementTree XML API](https://docs.python.org/3/library/xml.etree.elementtree.html)
+
 [argsparse](https://docs.python.org/3/library/argparse.html)
+
 [Google Cloud Translation API](https://cloud.google.com/translate/docs/basic/quickstart)
 
 ## Installation
@@ -18,11 +20,11 @@ pip install google-cloud-translate
 
 ## Setup
 
-This script uses the Google Cloud API, so you will first of all need a google service account.
-Make a project and go to API & services > credentials in the menu.
-You will heve to make a service account and add a key in json format in the service account details page.
+This script uses the Google Cloud API, so you will first of all need a google service account [Google Cloud](https://cloud.google.com/).
+Make a project and go to API & Services > Credentials in the menu.
+Under create credentials you will heve to make a service account and later add a key in json format in the service account details page.
 
-After you have your json file containing the key you can add the path to the script.
+After you have your json file containing the key you can add the file path to the script.
 
 ```python
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r"C:\Users\yourmom\Desktop\Python\AndroidTranslate\APIKey.json" 
@@ -44,6 +46,7 @@ To run the translator:
 ```bash
 python AndroidStringTranslator.py translateFile
 ```
+
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
