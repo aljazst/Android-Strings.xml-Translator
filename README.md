@@ -2,7 +2,7 @@
 
 Android-Strings.xml-Translator is a Python script that uses the Google Cloud Translation API to translate a whole .xml file to the desired language.
 
-##Documentation
+## Documentation
 
 [The ElementTree XML API](https://docs.python.org/3/library/xml.etree.elementtree.html)
 
