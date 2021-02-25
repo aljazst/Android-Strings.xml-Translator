@@ -46,6 +46,8 @@ To run the translator:
 ```bash
 python AndroidStringTranslator.py translateFile
 ```
+Another example of usage: 
+https://github.com/aljazst/Android-Strings.xml-Translator/issues/1#issuecomment-781311832
 
 
 ## License
